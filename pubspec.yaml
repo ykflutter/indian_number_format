@@ -1,0 +1,21 @@
+name: indian_number_format
+description: >-
+  Format numbers the Indian way: lakh/crore grouping (1,25,000), ₹ currency,
+  compact 1.5L and 3.5Cr, amounts in words for invoices, and parsing back.
+version: 0.1.0
+repository: https://github.com/ykflutter/indian_number_format
+issue_tracker: https://github.com/ykflutter/indian_number_format/issues
+
+topics:
+  - india
+  - currency
+  - number-format
+  - formatting
+  - localization
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  lints: '>=5.0.0 <7.0.0'
+  test: ^1.25.0
